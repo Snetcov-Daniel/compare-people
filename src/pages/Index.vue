@@ -1,15 +1,19 @@
 <template>
-  <q-page class="flex flex-center">
-    <img
-      alt="Quasar logo"
-      src="~assets/quasar-logo-vertical.svg"
-      style="width: 200px; height: 200px"
-    />
+  <q-page>
+    <q-page-section>
+      <Compare></Compare>
+    </q-page-section>
   </q-page>
 </template>
 
 <script>
+
+import Compare from "./Compare.vue";
+
 export default {
   name: "PageIndex",
+  components: {
+    Compare
+  }
 };
 </script>
