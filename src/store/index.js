@@ -16,8 +16,20 @@ Vue.use(Vuex)
 
 export default function (/* { ssrContext } */) {
   const Store = new Vuex.Store({
+    state: {
+      selectedPerson: {},
+    },
+    getters: {
+      getSelectedPerson(state) {
+        return state.selectedPerson;
+      }
+    },
+    mutations: {
+      updateSelectedPerson(state, newPerson) {
+        state.selectedPerson = newPerson;
+      }
+    },
     modules: {
-      // example
     },
 
     // enable strict mode (adds overhead!)
