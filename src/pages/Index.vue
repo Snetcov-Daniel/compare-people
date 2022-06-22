@@ -1,34 +1,39 @@
 <template>
-    <q-page class="main">
+    <q-page>
         <div class="compare flex justify-center">
             <q-btn label="Compare" no-caps color="primary" class="compare__button"/>
         </div>
-        <div class="row">
-            <div v-for="index in 31" :key="index" class="col-4">
-                <img class="image" src="http://localhost:3000/api/v1/image" alt="" style="margin: 5px; height: 100%">
+        <div class="row flex wrap">
+            <div v-for="(item, index) in src" :key="index">
+                <img :src="imgLink(item)" class="image" alt="" style="margin: 10px; width: 300px;">
             </div>
         </div>
     </q-page>
 </template>
 
 <script>
-import getPeople from "src/API/request";
+import {getPeople} from "src/API/request";
 
 export default {
     name: "Index",
     data() {
         return {
-            src: ['../../public/29.png']
+            src: [],
+            test: require("assets/1.png")
         }
+    },
+    methods: {
+        imgLink(name) {
+            const imgName = name;
+            return require(`assets/${imgName}`);
+        },
     },
     mounted() {
         getPeople()
-            .then(result => result.forEach(item => this.src.push(item.url)))
-        // this.src.forEach(item => item = require(`${item}`))
-        // for (let i = 0; i < this.src.length; i++) {
-        //     this.src[i] = require(`${this.src[i]}`)
-        // }
-        console.log(this.src)
+        .then((result) => result.forEach(person => { this.src.push(person.url);  }))
+        .catch((err) => {
+            console.log(err);
+        });
     }
 }
 </script>
