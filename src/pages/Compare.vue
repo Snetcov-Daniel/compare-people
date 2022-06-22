@@ -1,20 +1,20 @@
 <template>
-    <!-- <q-page> -->
-    <div class="compare">
-        <div class="comapre__item">
-            <img src="../assets/1.png" alt="" class="compare__item-img different">
-            <ul class="compare__item-list">
-            </ul>
-            <button class="main-btn">Select other image</button>
+    <q-page>
+        <div class="compare">
+            <div class="comapre__item">
+                <img src="../assets/1.png" alt="" class="compare__item-img different">
+                <ul class="compare__item-list">
+                </ul>
+                <button class="main-btn">Select other image</button>
+            </div>
+            <div class="compare__item">
+                <img src="../assets/10.png" alt="" class="compare__item-img different">
+                <ul class="compare__item-list">
+                </ul>
+                <button class="main-btn">Generate image</button>
+            </div>
         </div>
-        <div class="compare__item">
-            <img src="../assets/10.png" alt="" class="compare__item-img different">
-            <ul class="compare__item-list">
-            </ul>
-            <button class="main-btn">Generate image</button>
-        </div>
-    </div>
-    <!-- </q-page> -->
+    </q-page>
 </template>
 
 <script>
