@@ -1,14 +1,14 @@
 <template>
-    <q-page class="main">
+    <q-page>
         <div class="compare flex justify-center">
             <div  v-if="validated">
               <router-link to='/compare'><q-btn label="Compare" no-caps color="primary" class="compare__button" /></router-link>
             </div>
             <h2 v-else>Please Choose One of all images</h2>
         </div>
-        <div class="row">
-            <div v-for="index in 31" :key="index" class="col-4" @click="handleClick($event)">
-                <img class="image" src="http://localhost:3000/api/v1/image" alt="" style="margin: 5px; height: 100%">
+        <div class="row flex wrap">
+            <div v-for="(item, index) in src" :key="index" @click="handleClick($event)">
+                <img class="image" :src="imgLink(item)" alt="" style="margin: 10px; width: 300px;">
             </div>
         </div>
     </q-page>
@@ -16,7 +16,7 @@
 
 <script>
 import { BlockList } from "net";
-import getPeople from "src/API/request";
+import {getPeople} from "src/API/request";
 
 export default {
     name: "Index",
@@ -25,6 +25,12 @@ export default {
             src: ['../../public/29.png'],
             validated: false,
         }
+    },
+    methods: {
+        imgLink(name) {
+            const imgName = name;
+            return require(`assets/${imgName}`);
+        },
     },
     mounted() {
         getPeople()
