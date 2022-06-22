@@ -1,3 +1,5 @@
+import Compare from '../pages/Compare.vue'
+
 
 const routes = [
   {
@@ -5,6 +7,13 @@ const routes = [
     component: () => import('layouts/MainLayout.vue'),
     children: [
       { path: '', component: () => import('pages/Index.vue') }
+    ]
+  },
+  {
+    path: '',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [
+      {path: '/compare', component: Compare}
     ]
   },
 

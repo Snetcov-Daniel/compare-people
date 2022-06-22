@@ -5,7 +5,7 @@
                 <img :src="currentPerson.url" alt="" class="compare__item-img different">
                 <ul class="compare__item-list">
                 </ul>
-                <button class="main-btn">Home</button>
+                <router-link to="/"><button class="main-btn">Select other image</button></router-link>
             </div>
             <div class="compare__item">
                 <img :src="generatedPerson.url" alt="" class="compare__item-img different">
@@ -31,7 +31,7 @@ export default {
     },
 
     mounted() {
-        
+
     },
 
     computed: {

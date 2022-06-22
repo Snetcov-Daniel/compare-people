@@ -1,24 +1,29 @@
 <template>
     <q-page>
         <div class="compare flex justify-center">
-            <q-btn label="Compare" no-caps color="primary" class="compare__button"/>
+            <div  v-if="validated">
+              <router-link to='/compare'><q-btn label="Compare" no-caps color="primary" class="compare__button" /></router-link>
+            </div>
+            <h2 v-else>Please Choose One of all images</h2>
         </div>
         <div class="row flex wrap">
-            <div v-for="(item, index) in src" :key="index">
-                <img :src="imgLink(item)" class="image" alt="" style="margin: 10px; width: 300px;">
+            <div v-for="(item, index) in src" :key="index" @click="handleClick($event)">
+                <img class="image" :src="imgLink(item)" alt="" style="margin: 10px; width: 300px;">
             </div>
         </div>
     </q-page>
 </template>
 
 <script>
-import { getPeople } from 'src/API/request';
+import { BlockList } from "net";
+import {getPeople} from "src/API/request";
 
 export default {
     name: "Index",
     data() {
         return {
             src: [],
+            validated: false,
         }
     },
     methods: {
@@ -29,11 +34,18 @@ export default {
     },
     mounted() {
         getPeople()
-        .then((result) => result.forEach(person => { this.src.push(person.url);  }))
-        .catch((err) => {
-            console.log(err);
-        });
-    }
+            .then(result => result.forEach(item => this.src.push(item.url)))
+        // this.src.forEach(item => item = require(`${item}`))
+        // for (let i = 0; i < this.src.length; i++) {
+        //     this.src[i] = require(`${this.src[i]}`)
+        // }
+    },
+    methods: {
+      handleClick (event) {
+        this.validated = !this.validated
+        this.validated === true ? event.target.style.border="10px solid #41B883" : event.target.style.border="1px solid black"
+      }
+    },
 }
 </script>
 
@@ -54,5 +66,10 @@ export default {
 
 .image {
     border: 1px solid black;
+}
+
+.a {
+  border: 10px solid #41B883;
+  box-sizing: border-box;
 }
 </style>
