@@ -1,283 +1,286 @@
 {
-	"people": [
-		{
-			"url": "../../public/1.png",
-			"sex": "male",
-			"eye-color": "brown",
-			"skin-color": "white",
-			"hair": "short",
-			"hair-color": "black",
-			"id": 0
-		},
-		{
-			"url": "../../public/2.png",
-			"sex": "male",
-			"eye-color": "brown",
-			"skin-color": "white",
-			"hair": "short",
-			"hair-color": "brown",
-			"id": 1
-		},
-		{
-			"url": "../../public/3.png",
-			"sex": "male",
-			"eye-color": "brown",
-			"skin-color": "white",
-			"hair": "short",
-			"hair-color": "brown",
-			"id": 2
-		},
-		{
-			"url": "../../public/4.png",
-			"sex": "female",
-			"eye-color": "brown",
-			"skin-color": "white",
-			"hair": "long",
-			"hair-color": "blonde",
-			"id": 3
-		},
-		{
-			"url": "../../public/5.png",
-			"sex": "female",
-			"eye-color": "brown",
-			"skin-color": "white",
-			"hair": "long",
-			"hair-color": "blonde",
-			"id": 4
-		},
-		{
-			"url": "../../public/6.png",
-			"sex": "female",
-			"eye-color": "gray",
-			"skin-color": "white",
-			"hair": "long",
-			"hair-color": "blonde",
-			"id": 5
-		},
-		{
-			"url": "../../public/7.png",
-			"sex": "female",
-			"eye-color": "gray",
-			"skin-color": "white",
-			"hair": "long",
-			"hair-color": "brown",
-			"id": 6
-		},
-		{
-			"url": "../../public/8.png",
-			"sex": "female",
-			"eye-color": "blue",
-			"skin-color": "white",
-			"hair": "long",
-			"hair-color": "blonde",
-			"id": 7
-		},
-		{
-			"url": "../../public/9.png",
-			"sex": "female",
-			"eye-color": "brown",
-			"skin-color": "white",
-			"hair": "long",
-			"hair-color": "blonde",
-			"id": 8
-		},
-		{
-			"url": "../../public/10.png",
-			"sex": "female",
-			"eye-color": "brown",
-			"skin-color": "white",
-			"hair": "long",
-			"hair-color": "red",
-			"id": 9
-		},
-		{
-			"url": "../../public/11.png",
-			"sex": "female",
-			"eye-color": "brown",
-			"skin-color": "white",
-			"hair": "long",
-			"hair-color": "red",
-			"id": 10
-		},
-		{
-			"url": "../../public/12.png",
-			"sex": "female",
-			"eye-color": "blue",
-			"skin-color": "white",
-			"hair": "long",
-			"hair-color": "red",
-			"id": 11
-		},
-		{
-			"url": "../../public/13.png",
-			"sex": "female",
-			"eye-color": "brown",
-			"skin-color": "white",
-			"hair": "long",
-			"hair-color": "red",
-			"id": 12
-		},
-		{
-			"url": "../../public/14.png",
-			"sex": "male",
-			"eye-color": "gray",
-			"skin-color": "white",
-			"hair": "long",
-			"hair-color": "red",
-			"id": 13
-		},
-		{
-			"url": "../../public/15.png",
-			"sex": "male",
-			"eye-color": "blue",
-			"skin-color": "white",
-			"hair": "short",
-			"hair-color": "blonde",
-			"id": 14
-		},
-		{
-			"url": "../../public/16.png",
-			"sex": "male",
-			"eye-color": "blue",
-			"skin-color": "white",
-			"hair": "long",
-			"hair-color": "white",
-			"id": 15
-		},
-		{
-			"url": "../../public/17.png",
-			"sex": "male",
-			"eye-color": "blue",
-			"skin-color": "white",
-			"hair": "short",
-			"hair-color": "white",
-			"id": 16
-		},
-		{
-			"url": "../../public/18.png",
-			"sex": "female",
-			"eye-color": "brown",
-			"skin-color": "black",
-			"hair": "long",
-			"hair-color": "black",
-			"id": 17
-		},
-		{
-			"url": "../../public/19.png",
-			"sex": "female",
-			"eye-color": "brown",
-			"skin-color": "black",
-			"hair": "long",
-			"hair-color": "black",
-			"id": 18
-		},
-		{
-			"url": "../../public/20.png",
-			"sex": "female",
-			"eye-color": "brown",
-			"skin-color": "black",
-			"hair": "long",
-			"hair-color": "black",
-			"id": 19
-		},
-		{
-			"url": "../../public/21.png",
-			"sex": "male",
-			"eye-color": "brown",
-			"skin-color": "black",
-			"hair": "short",
-			"hair-color": "black",
-			"id": 20
-		},
-		{
-			"url": "../../public/22.png",
-			"sex": "male",
-			"eye-color": "brown",
-			"skin-color": "black",
-			"hair": "short",
-			"hair-color": "black",
-			"id": 21
-		},
-		{
-			"url": "../../public/23.png",
-			"sex": "male",
-			"eye-color": "brown",
-			"skin-color": "black",
-			"hair": "short",
-			"hair-color": "black",
-			"id": 22
-		},
-		{
-			"url": "../../public/24.png",
-			"sex": "male",
-			"eye-color": "unknown",
-			"skin-color": "white",
-			"hair": "long",
-			"hair-color": "white",
-			"id": 23
-		},
-		{
-			"url": "../../public/25.png",
-			"sex": "female",
-			"eye-color": "brown",
-			"skin-color": "white",
-			"hair": "long",
-			"hair-color": "black",
-			"id": 24
-		},
-		{
-			"url": "../../public/26.png",
-			"sex": "male",
-			"eye-color": "brown",
-			"skin-color": "white",
-			"hair": "short",
-			"hair-color": "black",
-			"id": 25
-		},
-		{
-			"url": "../../public/27.png",
-			"sex": "male",
-			"eye-color": "brown",
-			"skin-color": "white",
-			"hair": "short",
-			"hair-color": "black",
-			"id": 26
-		},
-		{
-			"url": "../../public/26.png",
-			"sex": "female",
-			"eye-color": "brown",
-			"skin-color": "white",
-			"hair": "long",
-			"hair-color": "black",
-			"id": 27
-		},
-		{
-			"url": "../../public/29.png",
-			"sex": "male",
-			"eye-color": "brown",
-			"skin-color": "white",
-			"hair": "short",
-			"hair-color": "black",
-			"id": 28
-		},
-		{
-			"url": "../../public/30.png",
-			"sex": "male",
-			"eye-color": "brown",
-			"skin-color": "white",
-			"hair": "short",
-			"hair-color": "black",
-			"id": 29
-		},
-		{
-			"url": "../../public/31.png",
-			"sex": "female",
-			"eye-color": "brown",
-			"skin-color": "white",
-			"hair": "long",
-			"hair-color": "black",
-			"id": 30
-		}
+	"people":[
+  
+	  {
+		"url": "1.png",
+		"sex": "male",
+		"eye-color": "brown",
+		"skin-color": "white",
+		"hair": "short",
+		"hair-color": "black",
+		"id": 0
+	  },
+	  {
+		"url": "2.png",
+		"sex": "male",
+		"eye-color": "brown",
+		"skin-color": "white",
+		"hair": "short",
+		"hair-color": "brown",
+		"id": 1
+	  }
+	,
+	  {
+		"url": "3.png",
+		"sex": "male",
+		"eye-color": "brown",
+		"skin-color": "white",
+		"hair": "short",
+		"hair-color": "brown",
+		"id": 2
+	  },
+	  {
+		"url": "4.png",
+		"sex": "female",
+		"eye-color": "brown",
+		"skin-color": "white",
+		"hair": "long",
+		"hair-color": "blonde",
+		"id": 3
+	  },
+	  {
+		"url": "5.png",
+		"sex": "female",
+		"eye-color": "brown",
+		"skin-color": "white",
+		"hair": "long",
+		"hair-color": "blonde",
+		"id": 4
+	  },
+	  {
+		"url": "6.png",
+		"sex": "female",
+		"eye-color": "gray",
+		"skin-color": "white",
+		"hair": "long",
+		"hair-color": "blonde",
+		"id": 5
+	  },
+	  {
+		"url": "7.png",
+		"sex": "female",
+		"eye-color": "gray",
+		"skin-color": "white",
+		"hair": "long",
+		"hair-color": "brown",
+		"id": 6
+	  },
+	  {
+		"url": "8.png",
+		"sex": "female",
+		"eye-color": "blue",
+		"skin-color": "white",
+		"hair": "long",
+		"hair-color": "blonde",
+		"id": 7
+	  },
+	  {
+		"url": "9.png",
+		"sex": "female",
+		"eye-color": "brown",
+		"skin-color": "white",
+		"hair": "long",
+		"hair-color": "blonde",
+		"id": 8
+	  },
+	  {
+		"url": "10.png",
+		"sex": "female",
+		"eye-color": "brown",
+		"skin-color": "white",
+		"hair": "long",
+		"hair-color": "red",
+		"id": 9
+	  },
+	  {
+		"url": "11.png",
+		"sex": "female",
+		"eye-color": "brown",
+		"skin-color": "white",
+		"hair": "long",
+		"hair-color": "red",
+		"id": 10
+	  },
+	  {
+		"url": "12.png",
+		"sex": "female",
+		"eye-color": "blue",
+		"skin-color": "white",
+		"hair": "long",
+		"hair-color": "red",
+		"id": 11
+	  },
+	  {
+		"url": "13.png",
+		"sex": "female",
+		"eye-color": "brown",
+		"skin-color": "white",
+		"hair": "long",
+		"hair-color": "red",
+		"id": 12
+	  },
+	  {
+		"url": "14.png",
+		"sex": "male",
+		"eye-color": "gray",
+		"skin-color": "white",
+		"hair": "long",
+		"hair-color": "red",
+		"id": 13
+	  },
+	  {
+		"url": "15.png",
+		"sex": "male",
+		"eye-color": "blue",
+		"skin-color": "white",
+		"hair": "short",
+		"hair-color": "blonde",
+		"id": 14
+	  },
+	  {
+		"url": "16.png",
+		"sex": "male",
+		"eye-color": "blue",
+		"skin-color": "white",
+		"hair": "long",
+		"hair-color": "white",
+		"id": 15
+	  },
+	  {
+		"url": "17.png",
+		"sex": "male",
+		"eye-color": "blue",
+		"skin-color": "white",
+		"hair": "short",
+		"hair-color": "white",
+		"id": 16
+	  },
+	  {
+		"url": "18.png",
+		"sex": "female",
+		"eye-color": "brown",
+		"skin-color": "black",
+		"hair": "long",
+		"hair-color": "black",
+		"id": 17
+	  },
+	  {
+		"url": "19.png",
+		"sex": "female",
+		"eye-color": "brown",
+		"skin-color": "black",
+		"hair": "long",
+		"hair-color": "black",
+		"id": 18
+	  },
+	  {
+		"url": "20.png",
+		"sex": "female",
+		"eye-color": "brown",
+		"skin-color": "black",
+		"hair": "long",
+		"hair-color": "black",
+		"id": 19
+	  },
+	  {
+		"url": "21.png",
+		"sex": "male",
+		"eye-color": "brown",
+		"skin-color": "black",
+		"hair": "short",
+		"hair-color": "black",
+		"id": 20
+	  },
+	  {
+		"url": "22.png",
+		"sex": "male",
+		"eye-color": "brown",
+		"skin-color": "black",
+		"hair": "short",
+		"hair-color": "black",
+		"id": 21
+	  },
+	  {
+		"url": "23.png",
+		"sex": "male",
+		"eye-color": "brown",
+		"skin-color": "black",
+		"hair": "short",
+		"hair-color": "black",
+		"id": 22
+	  },
+	  {
+		"url": "24.png",
+		"sex": "male",
+		"eye-color": "unknown",
+		"skin-color": "white",
+		"hair": "long",
+		"hair-color": "white",
+		"id": 23
+	  },
+	  {
+		"url": "25.png",
+		"sex": "female",
+		"eye-color": "brown",
+		"skin-color": "white",
+		"hair": "long",
+		"hair-color": "black",
+		"id": 24
+	  },
+	  {
+		"url": "26.png",
+		"sex": "male",
+		"eye-color": "brown",
+		"skin-color": "white",
+		"hair": "short",
+		"hair-color": "black",
+		"id": 25
+	  },
+	  {
+		"url": "27.png",
+		"sex": "male",
+		"eye-color": "brown",
+		"skin-color": "white",
+		"hair": "short",
+		"hair-color": "black",
+		"id": 26
+	  },
+	  {
+		"url": "26.png",
+		"sex": "female",
+		"eye-color": "brown",
+		"skin-color": "white",
+		"hair": "long",
+		"hair-color": "black",
+		"id": 27
+	  },
+	  {
+		"url": "29.png",
+		"sex": "male",
+		"eye-color": "brown",
+		"skin-color": "white",
+		"hair": "short",
+		"hair-color": "black",
+		"id": 28
+	  },
+	  {
+		"url": "30.png",
+		"sex": "male",
+		"eye-color": "brown",
+		"skin-color": "white",
+		"hair": "short",
+		"hair-color": "black",
+		"id": 29
+	  },
+	  {
+		"url": "31.png",
+		"sex": "female",
+		"eye-color": "brown",
+		"skin-color": "white",
+		"hair": "long",
+		"hair-color": "black",
+		"id": 30
+	  }
+  
 	]
-}
+  }
