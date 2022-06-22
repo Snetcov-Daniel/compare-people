@@ -2,28 +2,31 @@
     <q-page>
         <div class="compare">
             <div class="comapre__item">
-                <img src="" alt="" class="compare__item-img different">
+                <img :src="currentPerson.url" alt="" class="compare__item-img different">
                 <ul class="compare__item-list">
                 </ul>
-                <button class="main-btn">Select other image</button>
+                <button class="main-btn">Home</button>
             </div>
             <div class="compare__item">
-                <img src="" alt="" class="compare__item-img different">
+                <img :src="generatedPerson.url" alt="" class="compare__item-img different">
                 <ul class="compare__item-list">
                 </ul>
-                <button class="main-btn">Generate image</button>
+                <button class="main-btn" @click="newPerson">Next</button>
             </div>
         </div>
     </q-page>
 </template>
 
 <script>
+import { getPeople } from 'src/API/request';
+
 export default {
     name: 'Compare',
 
     data() {
         return {
-            
+            currentPerson: {},
+            generatedPerson: {}
         };
     },
 
@@ -31,8 +34,23 @@ export default {
         
     },
 
+    computed: {
+        getCurrentPerson() {
+            return this.$store.getters.getSelectedPerson;
+        },
+    },
+
     methods: {
-        
+        newPerson() {
+            getPeople()
+            .then((result) => {
+                const newPerson = result[Math.floor(Math.random() * result.length)];
+                generatedPerson = newPerson;
+            })
+            .catch((err) => {
+                console.log(err);
+            });
+        }
     },
 };
 </script>

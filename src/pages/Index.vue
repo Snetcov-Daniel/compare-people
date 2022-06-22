@@ -12,14 +12,13 @@
 </template>
 
 <script>
-import {getPeople} from "src/API/request";
+import { getPeople } from 'src/API/request';
 
 export default {
     name: "Index",
     data() {
         return {
             src: [],
-            test: require("assets/1.png")
         }
     },
     methods: {
