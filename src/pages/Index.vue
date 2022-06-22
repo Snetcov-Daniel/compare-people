@@ -22,7 +22,7 @@ export default {
     name: "Index",
     data() {
         return {
-            src: ['../../public/29.png'],
+            src: [],
             validated: false,
         }
     },
