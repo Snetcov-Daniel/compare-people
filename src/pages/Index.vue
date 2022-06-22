@@ -15,7 +15,6 @@
 </template>
 
 <script>
-import { BlockList } from "net";
 import {getPeople} from "src/API/request";
 
 export default {
@@ -26,24 +25,30 @@ export default {
             validated: false,
         }
     },
-    methods: {
-        imgLink(name) {
-            const imgName = name;
-            return require(`assets/${imgName}`);
-        },
-    },
     mounted() {
         getPeople()
             .then(result => result.forEach(item => this.src.push(item.url)))
-        // this.src.forEach(item => item = require(`${item}`))
-        // for (let i = 0; i < this.src.length; i++) {
-        //     this.src[i] = require(`${this.src[i]}`)
-        // }
     },
     methods: {
+      imgLink(name) {
+        const imgName = name;
+        return require(`assets/${imgName}`);
+      },
       handleClick (event) {
-        this.validated = !this.validated
-        this.validated === true ? event.target.style.border="10px solid #41B883" : event.target.style.border="1px solid black"
+        const target = event.target;
+        getPeople()
+        .then((result) => {
+            result.forEach(person => {
+                const link = `http://localhost:8080/img/${person.url}`;
+                if(target.src === link){
+                    this.$store.commit("updateSelectedPerson", person)
+                }
+            });
+        }).catch((err) => {
+            console.log(err);
+        });
+        this.validated = !this.validated;
+        this.validated === true ? target.style.border="10px solid #41B883" : target.style.border="1px solid black"
       }
     },
 }
