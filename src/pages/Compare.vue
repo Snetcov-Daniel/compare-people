@@ -47,22 +47,23 @@ export default {
                     const newPerson = result[Math.floor(Math.random() * result.length)];
                     this.generatedPerson = newPerson;
 
-                    const keys = Object.keys(this.selectedPerson);
-                    console.log('this.selectedPerson :>> ', this.selectedPerson);
-                    console.log('this.generatedPerson :>> ', this.generatedPerson);
                     const comparing = document.querySelectorAll(".compare__item-img");
-                    keys.forEach(key => {
-                        if(this.selectedPerson[key] !== this.generatedPerson[key]){
-                            comparing.forEach(img => {
-                                img.classList.remove("same");
-                                img.classList.add("different");
-                            });
-                            return;
-                        }
+                    if(
+                        this.selectedPerson.treats["sex"] !== this.generatedPerson.treats["sex"] || 
+                        this.selectedPerson.treats["eye-color"] !== this.generatedPerson.treats["eye-color"] || 
+                        this.selectedPerson.treats["skin-color"] !== this.generatedPerson.treats["skin-color"] || 
+                        this.selectedPerson.treats["hair"] !== this.generatedPerson.treats["hair"] || 
+                        this.selectedPerson.treats["hair-color"] !== this.generatedPerson.treats["hair-color"]
+                    ){
                         comparing.forEach(img => {
-                            img.classList.remove("different");
-                            img.classList.add("same");
+                            img.classList.remove("same");
+                            img.classList.add("different");
                         });
+                        return;
+                    }
+                    comparing.forEach(img => {
+                        img.classList.remove("different");
+                        img.classList.add("same");
                     });
                 })
                 .catch((err) => {

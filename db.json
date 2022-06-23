@@ -2,346 +2,313 @@
 	"people":[
 	  {
 		"url": "1.png",
-      "treats": [
-        {"sex": "male"},
-        {"eye-color": "brown"},
-        {"skin-color": "white"},
-        {"hair": "short"},
-        {"hair-color": "brown"},
-        {"id": 0}
-      ]
+    "treats": {
+      "sex": "male",
+      "eye-color": "brown",
+      "skin-color": "white",
+      "hair": "short",
+      "hair-color": "brown"
+      }
 	  },
 	  {
 		"url": "2.png",
-      "treats": [
-        {"sex": "male"},
-        {"eye-color": "brown"},
-        {"skin-color": "white"},
-        {"hair": "short"},
-        {"hair-color": "brown"},
-        {"id": 1}
-      ]
-	  }
-	,
+    "treats": {
+      "sex": "male",
+      "eye-color": "brown",
+      "skin-color": "white",
+      "hair": "short",
+      "hair-color": "brown"
+      }
+	  },
 	  {
 		"url": "3.png",
-    "treats": [
-      {"sex": "male"},
-      {"eye-color": "brown"},
-      {"skin-color": "white"},
-      {"hair": "short"},
-      {"hair-color": "brown"},
-      {"id": 2}
-    ]
-
+    "treats": {
+      "sex": "male",
+      "eye-color": "brown",
+      "skin-color": "white",
+      "hair": "short",
+      "hair-color": "brown"
+      }
 	  },
 	  {
 		"url": "4.png",
-      "treats": [
-        {"sex": "female"},
-        {"eye-color": "brown"},
-        {"skin-color": "white"},
-        {"hair": "long"},
-        {"hair-color": "brown"},
-        {"id": 3}
-      ]
+    "treats": {
+      "sex": "female",
+      "eye-color": "brown",
+      "skin-color": "white",
+      "hair": "long",
+      "hair-color": "brown"
+      }
 	  },
 	  {
 		"url": "5.png",
-      "treats": [
-        {"sex": "female"},
-        {"eye-color": "brown"},
-        {"skin-color": "white"},
-        {"hair": "long"},
-        {"hair-color": "blonde"},
-        {"id": 4}
-      ]
+    "treats": {
+      "sex": "female",
+      "eye-color": "brown",
+      "skin-color": "white",
+      "hair": "long",
+      "hair-color": "blonde"
+      }
 	  },
 	  {
 		"url": "6.png",
-      "treats": [
-        {"sex": "female"},
-        {"eye-color": "gray"},
-        {"skin-color": "white"},
-        {"hair": "long"},
-        {"hair-color": "blonde"},
-        {"id": 5}
-      ]
+    "treats": {
+      "sex": "female",
+      "eye-color": "gray",
+      "skin-color": "white",
+      "hair": "long",
+      "hair-color": "blonde"
+      }
 	  },
 	  {
 		"url": "7.png",
-      "treats": [
-        {"sex": "female"},
-        {"eye-color": "gray"},
-        {"skin-color": "white"},
-        {"hair": "long"},
-        {"hair-color": "brown"},
-        {"id": 6}
-      ]
+    "treats": {
+      "sex": "female",
+      "eye-color": "gray",
+      "skin-color": "white",
+      "hair": "long",
+      "hair-color": "brown"
+      }
 	  },
 	  {
 		"url": "8.png",
-      "treats": [
-        {"sex": "female"},
-        {"eye-color": "blue"},
-        {"skin-color": "white"},
-        {"hair": "long"},
-        {"hair-color": "blonde"},
-        {"id": 7}
-      ]
+    "treats": {
+      "sex": "female",
+      "eye-color": "blue",
+      "skin-color": "white",
+      "hair": "long",
+      "hair-color": "blonde"
+      }
 	  },
 	  {
 		"url": "9.png",
-      "treats": [
-        {"sex": "female"},
-        {"eye-color": "blue"},
-        {"skin-color": "white"},
-        {"hair": "long"},
-        {"hair-color": "blonde"},
-        {"id": 8}
-      ]
+    "treats": {
+      "sex": "female",
+      "eye-color": "blue",
+      "skin-color": "white",
+      "hair": "long",
+      "hair-color": "blonde"
+      }
 	  },
 	  {
 		"url": "10.png",
-      "treats": [
-        {"sex": "female"},
-        {"eye-color": "brown"},
-        {"skin-color": "white"},
-        {"hair": "long"},
-        {"hair-color": "red"},
-        {"id": 9}
-      ]
+    "treats": {
+      "sex": "female",
+      "eye-color": "brown",
+      "skin-color": "white",
+      "hair": "long",
+      "hair-color": "red"
+      }
 	  },
 	  {
 		"url": "11.png",
-      "treats": [
-        {"sex": "female"},
-        {"eye-color": "brown"},
-        {"skin-color": "white"},
-        {"hair": "long"},
-        {"hair-color": "red"},
-        {"id": 10}
-      ]
+    "treats": {
+      "sex": "female",
+      "eye-color": "brown",
+      "skin-color": "white",
+      "hair": "long",
+      "hair-color": "red"
+      }
 	  },
 	  {
 		"url": "12.png",
-      "treats": [
-        {"sex": "female"},
-        {"eye-color": "blue"},
-        {"skin-color": "white"},
-        {"hair": "long"},
-        {"hair-color": "red"},
-        {"id": 11}
-      ]
+    "treats": {
+      "sex": "female",
+      "eye-color": "blue",
+      "skin-color": "white",
+      "hair": "long",
+      "hair-color": "red"
+      }
 	  },
 	  {
 		"url": "13.png",
-      "treats": [
-        {"sex": "female"},
-        {"eye-color": "brown"},
-        {"skin-color": "white"},
-        {"hair": "long"},
-        {"hair-color": "red"},
-        {"id": 12}
-      ]
+    "treats": {
+      "sex": "female",
+      "eye-color": "brown",
+      "skin-color": "white",
+      "hair": "long",
+      "hair-color": "red"
+      }
 	  },
 	  {
 		"url": "14.png",
-      "treats": [
-        {"sex": "male"},
-        {"eye-color": "gray"},
-        {"skin-color": "white"},
-        {"hair": "long"},
-        {"hair-color": "red"},
-        {"id": 13}
-      ]
+    "treats": {
+      "sex": "male",
+      "eye-color": "gray",
+      "skin-color": "white",
+      "hair": "long",
+      "hair-color": "red"
+      }
 	  },
 	  {
 		"url": "15.png",
-      "treats": [
-        {"sex": "male"},
-        {"eye-color": "blue"},
-        {"skin-color": "white"},
-        {"hair": "short"},
-        {"hair-color": "blonde"},
-        {"id": 14}
-      ]
+    "treats": {
+      "sex": "male",
+      "eye-color": "blue",
+      "skin-color": "white",
+      "hair": "short",
+      "hair-color": "blonde"
+      }
 	  },
 	  {
 		"url": "16.png",
-      "treats": [
-        {"sex": "male"},
-        {"eye-color": "blue"},
-        {"skin-color": "white"},
-        {"hair": "short"},
-        {"hair-color": "blonde"},
-        {"id": 15}
-      ]
+    "treats": {
+      "sex": "male",
+      "eye-color": "blue",
+      "skin-color": "white",
+      "hair": "short",
+      "hair-color": "blonde"
+      }
 	  },
 	  {
 		"url": "17.png",
-      "treats": [
-        {"sex": "male"},
-        {"eye-color": "blue"},
-        {"skin-color": "white"},
-        {"hair": "short"},
-        {"hair-color": "white"},
-        {"id": 16}
-      ]
+    "treats": {
+      "sex": "male",
+      "eye-color": "blue",
+      "skin-color": "white",
+      "hair": "short",
+      "hair-color": "white"
+      }
 	  },
 	  {
 		"url": "18.png",
-      "treats": [
-        {"sex": "female"},
-        {"eye-color": "brown"},
-        {"skin-color": "black"},
-        {"hair": "long"},
-        {"hair-color": "black"},
-        {"id": 17}
-      ]
+    "treats": {
+      "sex": "female",
+      "eye-color": "brown",
+      "skin-color": "black",
+      "hair": "long",
+      "hair-color": "black"
+      }
 	  },
 	  {
 		"url": "19.png",
-      "treats": [
-        {"sex": "female"},
-        {"eye-color": "brown"},
-        {"skin-color": "black"},
-        {"hair": "long"},
-        {"hair-color": "black"},
-        {"id": 18}
-      ]
+    "treats": {
+      "sex": "female",
+      "eye-color": "brown",
+      "skin-color": "black",
+      "hair": "long",
+      "hair-color": "black"
+      }
 	  },
 	  {
 		"url": "20.png",
-      "treats": [
-        {"sex": "female"},
-        {"eye-color": "brown"},
-        {"skin-color": "black"},
-        {"hair": "long"},
-        {"hair-color": "black"},
-        {"id": 19}
-      ]
+    "treats": {
+      "sex": "female",
+      "eye-color": "brown",
+      "skin-color": "black",
+      "hair": "long",
+      "hair-color": "black"
+      }
 	  },
 	  {
 		"url": "21.png",
-      "treats": [
-        {"sex": "male"},
-        {"eye-color": "brown"},
-        {"skin-color": "black"},
-        {"hair": "short"},
-        {"hair-color": "black"},
-        {"id": 20}
-      ]
+    "treats": {
+      "sex": "male",
+      "eye-color": "brown",
+      "skin-color": "black",
+      "hair": "short",
+      "hair-color": "black"
+      }
 	  },
 	  {
 		"url": "22.png",
-      "treats": [
-        {"sex": "male"},
-        {"eye-color": "brown"},
-        {"skin-color": "black"},
-        {"hair": "short"},
-        {"hair-color": "black"},
-        {"id": 21}
-      ]
+    "treats": {
+      "sex": "male",
+      "eye-color": "brown",
+      "skin-color": "black",
+      "hair": "short",
+      "hair-color": "black"
+      }
 	  },
 	  {
 		"url": "23.png",
-      "treats": [
-        {"sex": "male"},
-        {"eye-color": "brown"},
-        {"skin-color": "black"},
-        {"hair": "short"},
-        {"hair-color": "black"},
-        {"id": 22}
-      ]
+    "treats": {
+      "sex": "male",
+      "eye-color": "brown",
+      "skin-color": "black",
+      "hair": "short",
+      "hair-color": "black"
+      }
 	  },
 	  {
 		"url": "24.png",
-      "treats": [
-        {"sex": "male"},
-        {"eye-color": "unknown"},
-        {"skin-color": "white"},
-        {"hair": "long"},
-        {"hair-color": "white"},
-        {"id": 23}
-      ]
+    "treats": {
+      "sex": "male",
+      "eye-color": "unknown",
+      "skin-color": "white",
+      "hair": "long",
+      "hair-color": "white"
+      }
 	  },
 	  {
 		"url": "25.png",
-      "treats": [
-        {"sex": "female"},
-        {"eye-color": "brown"},
-        {"skin-color": "white"},
-        {"hair": "long"},
-        {"hair-color": "black"},
-        {"id": 24}
-      ]
+    "treats": {
+      "sex": "female",
+      "eye-color": "brown",
+      "skin-color": "white",
+      "hair": "long",
+      "hair-color": "black"
+      }
 	  },
 	  {
 		"url": "26.png",
-      "treats": [
-        {"sex": "male"},
-        {"eye-color": "brown"},
-        {"skin-color": "white"},
-        {"hair": "short"},
-        {"hair-color": "black"},
-        {"id": 25}
-      ]
+    "treats": {
+      "sex": "male",
+      "eye-color": "brown",
+      "skin-color": "white",
+      "hair": "short",
+      "hair-color": "black"
+      }
 	  },
 	  {
 		"url": "27.png",
-      "treats": [
-        {"sex": "male"},
-        {"eye-color": "brown"},
-        {"skin-color": "white"},
-        {"hair": "short"},
-        {"hair-color": "black"},
-        {"id": 26}
-      ]
+    "treats": {
+      "sex": "male",
+      "eye-color": "brown",
+      "skin-color": "white",
+      "hair": "short",
+      "hair-color": "black"
+      }
 	  },
 	  {
 		"url": "27.png",
-      "treats": [
-        {"sex": "male"},
-        {"eye-color": "brown"},
-        {"skin-color": "white"},
-        {"hair": "short"},
-        {"hair-color": "black"},
-        {"id": 27}
-      ]
+    "treats": {
+      "sex": "male",
+      "eye-color": "brown",
+      "skin-color": "white",
+      "hair": "short",
+      "hair-color": "black"
+      }
 	  },
 	  {
 		"url": "29.png",
-      "treats": [
-        {"sex": "male"},
-        {"eye-color": "brown"},
-        {"skin-color": "white"},
-        {"hair": "short"},
-        {"hair-color": "black"},
-        {"id": 28}
-      ]
+    "treats": {
+      "sex": "male",
+      "eye-color": "brown",
+      "skin-color": "white",
+      "hair": "short",
+      "hair-color": "black"
+      }
 	  },
 	  {
 		"url": "30.png",
-      "treats": [
-        {"sex": "male"},
-        {"eye-color": "brown"},
-        {"skin-color": "white"},
-        {"hair": "short"},
-        {"hair-color": "black"},
-        {"id": 29}
-      ]
+    "treats": {
+      "sex": "male",
+      "eye-color": "brown",
+      "skin-color": "white",
+      "hair": "short",
+      "hair-color": "black"
+      }
 	  },
 	  {
 		"url": "31.png",
-      "treats": [
-        {"sex": "female"},
-        {"eye-color": "brown"},
-        {"skin-color": "white"},
-        {"hair": "long"},
-        {"hair-color": "black"},
-        {"id": 30}
-      ]
+    "treats": {
+      "sex": "female",
+      "eye-color": "brown",
+      "skin-color": "white",
+      "hair": "long",
+      "hair-color": "black"
+      }
 	  }
 	]
   }
