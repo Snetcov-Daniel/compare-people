@@ -4,12 +4,14 @@
             <div class="comapre__item">
                 <img :src="imgLink(selectedPerson.url)" alt="" class="compare__item-img different">
                 <ul  class="compare__item-list">
+                    <li v-for="(item, index) in selectedPersonTreats" :key="index">{{ item }}</li>
                 </ul>
                 <router-link to="/"><button class="main-btn">Select other image</button></router-link>
             </div>
             <div class="compare__item">
                 <img :src="imgLink(generatedPerson.url)" alt="" class="compare__item-img different">
                 <ul class="compare__item-list">
+                    <li v-for="(item, index) in generatedPersonTreats" :key="index">{{ item }}</li>
                 </ul>
                 <button class="main-btn" @click="newPerson()">Next</button>
             </div>
@@ -26,12 +28,14 @@ export default {
     data() {
         return {
             selectedPerson: {},
+            selectedPersonTreats: [],
             generatedPerson: {},
+            generatedPersonTreats: []
         };
     },
     mounted() {
         this.selectedPerson = this.getSelectedPerson;
-        this.newPerson()
+        this.newPerson();
     },
 
     computed: {
@@ -45,6 +49,8 @@ export default {
             getPeople()
                 .then((result) => {
                     const newPerson = result[Math.floor(Math.random() * result.length)];
+                    this.selectedPersonTreats.push(this.selectedPerson.treats["sex"])
+                    
                     this.generatedPerson = newPerson;
 
                     const comparing = document.querySelectorAll(".compare__item-img");
@@ -59,8 +65,24 @@ export default {
                             img.classList.remove("same");
                             img.classList.add("different");
                         });
+                        this.selectedPersonTreats = Object.keys(this.selectedPerson.treats);
+                        this.generatedPersonTreats = Object.keys(this.generatedPerson.treats);
+                        this.selectedPersonTreats = this.selectedPersonTreats.map((item) => {
+                            if (this.selectedPerson.treats[item] !== this.generatedPerson.treats[item]) {
+                                return item += ": " + this.selectedPerson.treats[item];
+                            }
+                        });
+                        this.generatedPersonTreats = this.generatedPersonTreats.map(item => {
+                            if (this.selectedPerson.treats[item] !== this.generatedPerson.treats[item]) {
+                                return item += ": " + this.generatedPerson.treats[item];
+                            }
+                        })
+                        console.log(this.selectedPersonTreats);
+                        console.log(this.generatedPersonTreats);
                         return;
                     }
+                    this.selectedPersonTreats = [];
+                    this.generatedPersonTreats = [];
                     comparing.forEach(img => {
                         img.classList.remove("different");
                         img.classList.add("same");
