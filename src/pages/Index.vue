@@ -48,6 +48,8 @@ export default {
             console.log(err);
         });
         this.validated = !this.validated;
+        const img = Array.from(document.querySelectorAll('img'))
+        img.forEach(image => image.style.border="1px solid black")
         this.validated === true ? target.style.border="10px solid #41B883" : target.style.border="1px solid black"
       }
     },
