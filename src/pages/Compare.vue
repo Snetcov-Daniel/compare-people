@@ -77,8 +77,6 @@ export default {
                                 return item += ": " + this.generatedPerson.treats[item];
                             }
                         })
-                        console.log(this.selectedPersonTreats);
-                        console.log(this.generatedPersonTreats);
                         return;
                     }
                     this.selectedPersonTreats = [];
