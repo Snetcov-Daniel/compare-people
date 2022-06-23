@@ -271,12 +271,12 @@
       }
 	  },
 	  {
-		"url": "27.png",
+		"url": "28.png",
     "treats": {
-      "sex": "male",
+      "sex": "female",
       "eye-color": "brown",
       "skin-color": "white",
-      "hair": "short",
+      "hair": "long",
       "hair-color": "black"
       }
 	  },
